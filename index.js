@@ -1,16 +1,19 @@
 
-// let url=`https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0`
-// async function getdata(){
+let url=`https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0`
+async function getdata(){
     
-//    let res= await fetch(url);
-//    let data= await res.json();
-//   let arr=data.results;
-// //   console.log(arr);
-//   localStorage.setItem("arr",JSON.stringify(arr));
+   let res= await fetch(url);
+   let data= await res.json();
+  let arr=data.results;
+//   console.log(arr);
+  localStorage.setItem("arr",JSON.stringify(arr));
 
  
-// }
-// getdata();
+}
+getdata();
+
+
+// please comment above code after making one request
 
 
 function display(){
