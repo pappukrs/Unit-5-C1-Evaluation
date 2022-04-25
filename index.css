@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+#table_container{
+    margin-left:30%;
+    margin-right:30%;
+    margin-top:2%;
+    background-color:teal;
+    padding-left:10%;
+    padding-right:10%;
+}
+table{
+    border:"1";
+}
+
+
+#search{
+    margin-left:30%;
+    margin-right:30%;
+    margin-top:2%;
+}
+#searchbtn{
+    margin-left:30%;
+    margin-right:30%;
+    margin-top:2%;
+    padding:20px;
+    background-color:blue;
+    color:black;
+    font-weight:bold;
+    font-size:30px;
+}
+
+#searchbtn:hover{
+    color:white;
+    background-color:black;
+}
